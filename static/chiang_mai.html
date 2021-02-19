@@ -2,26 +2,40 @@
 <html lang="en">
 <head>
     <title>Chiang Mai</title>
+    <!-- Lien bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Style interne-->
+    <style>
+        #f {
+            font-weight: bold;
+        }
+        .best {
+            color: green
+        }
+        h1, h3, a {
+            font-family:Verdana;
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <div>
-        <center>
-        <h1>Chiang Mai</h1>
+    <div classe="container card pb-3 my-5">
+        <h1 class="text-center py-3">Chiang Mai</h1>
         <br>
-        <img src="https://media.cntraveler.com/photos/5fd0ded7aa9fb907eb94c0f2/master/w_1200%2Cc_limit/BestCitiesInTheWorld-2020-Chiang%2520Mai%2C%2520Thailand-GettyImages-668710572.jpg">
-        </center>
-        <h3>Principales attractions</h3>
-        <ul>
-            <li id="1">Amazing hotels</li>
-            <li id="2">Hike through the forest</li>
-            <li id="3">Wat Palad temple complex</li>
-            <li id="4">Super-hot curries</li>
-            <li id="5">Aesthetics of trading-outpost history</li>
+        <img style="height: 400px; object-fit: cover;" src="https://media.cntraveler.com/photos/5fd0ded7aa9fb907eb94c0f2/master/w_1200%2Cc_limit/BestCitiesInTheWorld-2020-Chiang%2520Mai%2C%2520Thailand-GettyImages-668710572.jpg">
+        <h3 class="py-3">Principales attractions</h3>
+        <ul class="list-group">
+            <li class="list-group-item" id="1">Amazing hotels</li>
+            <li class="best list-group-item" id="2">Hike through the forest</li>
+            <li class="best list-group-item" id="3">Wat Palad temple complex</li>
+            <li class="list-group-item" id="4">Super-hot curries</li>
+            <li class= "list-group-item" id="f">Aesthetics of trading-outpost history</li>
         </ul>
         <br>
-        <a href="https://en.wikipedia.org/wiki/Chiang_Mai">Mieux connaître la Thaïlande</a><br>
+        <a href="https://en.wikipedia.org/wiki/Chiang_Mai">Mieux connaître la Thaïlande</a>  
+        <br>
         <a href="mailto:monadresse@courriel.com">Contactez votre agent de voyage</a>
     </div>
 
